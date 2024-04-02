@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import LandingImages from "../components/LandingImages";
 import Search from "../components/Search";
 import News from "../components/News";
+import Footer from "../components/Footer";
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
         <Search />
         <News />
       </div>
+      <Footer />
     </div>
   );
 };
