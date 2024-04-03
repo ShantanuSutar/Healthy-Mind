@@ -1,8 +1,4 @@
-import React from "react";
 import { Cities, Genders, States } from "../data/fakeData";
-import CitiesFilter from "./Filters/CitiesFilter";
-import StatesFilter from "./Filters/StatesFilter";
-import GenderFilter from "./Filters/GenderFilter";
 import CommonFilter from "./Filters/CommonFilters";
 
 const Filters = ({ setTherapists, filters, setFilters }) => {
@@ -10,27 +6,32 @@ const Filters = ({ setTherapists, filters, setFilters }) => {
   const states = States;
   const genders = Genders;
 
+  const filterCategories = [
+    {
+      filteringData: cities,
+      filterCategory: "city",
+    },
+    {
+      filteringData: states,
+      filterCategory: "state",
+    },
+    {
+      filteringData: genders,
+      filterCategory: "gender",
+    },
+  ];
   return (
     <div className=" flex gap-10">
-      {/* <CitiesFilter
-        setTherapists={setTherapists}
-        cities={cities}
-        filters={filters}
-        setFilters={setFilters}
-      />
-      <StatesFilter
-        setTherapists={setTherapists}
-        states={states}
-        filters={filters}
-        setFilters={setFilters}
-      />
-      <GenderFilter
-        setTherapists={setTherapists}
-        genders={genders}
-        filters={filters}
-        setFilters={setFilters}
-      /> */}
-      <CommonFilter
+      {filterCategories.map((filter, i) => (
+        <CommonFilter
+          key={i}
+          filteringData={filter.filteringData}
+          filterCategory={filter.filterCategory}
+          filters={filters}
+          setFilters={setFilters}
+        />
+      ))}
+      {/* <CommonFilter
         filteringData={cities}
         filterCategory={"city"}
         filters={filters}
@@ -47,7 +48,7 @@ const Filters = ({ setTherapists, filters, setFilters }) => {
         filterCategory={"gender"}
         filters={filters}
         setFilters={setFilters}
-      />
+      /> */}
     </div>
   );
 };
