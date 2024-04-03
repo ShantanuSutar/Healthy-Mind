@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 const Landing = () => {
   return (
-    <div className=" font-serif">
+    <div className=" ">
       <Navbar />
       <div className=" pt-16 w-[71%] text-white mx-auto items-center justify-center">
         <LandingImages />
