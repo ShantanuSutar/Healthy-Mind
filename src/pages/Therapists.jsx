@@ -4,6 +4,7 @@ import SingleTherapist from "../components/SingleTherapist";
 
 import { useParams } from "react-router-dom";
 import Filters from "../components/Filters";
+import BreadCrumbs from "../components/BreadCrumbs";
 const Therapists = () => {
   const therapistsData = TherapistsData;
 
@@ -16,6 +17,16 @@ const Therapists = () => {
     price: "",
     gender: "",
   });
+
+  const handleReset = () => {
+    setFilters({
+      city: "",
+      state: "",
+      experience: "",
+      price: "",
+      gender: "",
+    });
+  };
 
   useEffect(() => {
     let updatedTherapists = [];
@@ -76,12 +87,21 @@ const Therapists = () => {
   }, [filters]);
 
   return (
-    <div className=" pt-16 flex flex-col items-center justify-center  gap-8 w-[80%] mx-auto">
-      <Filters
-        setTherapists={setTherapists}
-        filters={filters}
-        setFilters={setFilters}
-      />
+    <div className=" pt-16 flex flex-col items-center justify-center gap-8 w-[80%] mx-auto">
+      <BreadCrumbs filters={filters} />
+      <div className="  gap-8 flex    border-b-2  pb-6 px-10  items-center">
+        <Filters
+          setTherapists={setTherapists}
+          filters={filters}
+          setFilters={setFilters}
+        />
+        <button
+          className=" text-lg  border-gray-200 border-2 px-4 py-1 rounded-3xl hover:shadow-md"
+          onClick={handleReset}
+        >
+          Reset
+        </button>
+      </div>
       <ul>
         {therapists.length > 0 ? (
           therapists.map((therapist, i) => {
