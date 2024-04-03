@@ -1,3 +1,247 @@
+export const TherapistsData = [
+    {
+      "name": "Dr. Aarav Sharma",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "description": "Experienced therapist specializing in cognitive behavioral therapy.",
+      "qualifications": ["Ph.D. in Psychology", "Licensed Counselor"],
+      "experience": "10 years",
+      "gender": "Male",
+      "issues": ["Anxiety", "Depression", "Relationship Issues"],
+      "types_of_therapy": ["Cognitive Behavioral Therapy", "Mindfulness-Based Therapy"],
+      "price": "$100 per session"
+    },
+    {
+      "name": "Dr. Priya Patel",
+      "city": "Delhi",
+      "state": "Delhi",
+      "description": "Compassionate therapist offering psychoanalytic therapy for individuals and couples.",
+      "qualifications": ["Masters in Clinical Psychology", "Certified Psychoanalyst"],
+      "experience": "8 years",
+      "gender": "Female",
+      "issues": ["Trauma", "Self-esteem", "Family Conflict"],
+      "types_of_therapy": ["Psychoanalytic Therapy", "Couples Therapy"],
+      "price": "$80 per session"
+    },
+    {
+      "name": "Dr. Rajesh Singh",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "description": "Experienced psychologist specializing in child and adolescent therapy.",
+      "qualifications": ["MD in Psychiatry", "Child Psychologist Certification"],
+      "experience": "15 years",
+      "gender": "Male",
+      "issues": ["Behavioral Disorders", "Parenting Issues", "School-related Problems"],
+      "types_of_therapy": ["Play Therapy", "Family Therapy"],
+      "price": "$120 per session"
+    },
+    {
+      "name": "Dr. Deepa Verma",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "description": "Dedicated therapist with expertise in treating substance abuse and addiction.",
+      "qualifications": ["Ph.D. in Clinical Psychology", "Certified Addiction Counselor"],
+      "experience": "12 years",
+      "gender": "Female",
+      "issues": ["Substance Abuse", "Addiction", "Dual Diagnosis"],
+      "types_of_therapy": ["Cognitive Behavioral Therapy", "Motivational Interviewing"],
+      "price": "$90 per session"
+    },
+    {
+      "name": "Dr. Arjun Gupta",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "description": "Experienced psychiatrist offering holistic therapy for mental health issues.",
+      "qualifications": ["MD in Psychiatry", "Certified Holistic Therapist"],
+      "experience": "20 years",
+      "gender": "Male",
+      "issues": ["Stress", "Mood Disorders", "Psychosomatic Disorders"],
+      "types_of_therapy": ["Mindfulness-Based Therapy", "Yoga Therapy"],
+      "price": "$150 per session"
+    },
+    {
+      "name": "Dr. Nandini Rao",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "description": "Warm and empathetic counselor specializing in grief and trauma therapy.",
+      "qualifications": ["MA in Counseling Psychology", "Certified Trauma Specialist"],
+      "experience": "10 years",
+      "gender": "Female",
+      "issues": ["Grief", "Trauma", "PTSD"],
+      "types_of_therapy": ["Eye Movement Desensitization and Reprocessing (EMDR)", "Art Therapy"],
+      "price": "$100 per session"
+    },
+    {
+      "name": "Dr. Vikram Singh",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "description": "Experienced therapist offering solution-focused therapy for individuals and couples.",
+      "qualifications": ["MS in Counseling Psychology", "Certified Marriage and Family Therapist"],
+      "experience": "18 years",
+      "gender": "Male",
+      "issues": ["Marital Issues", "Career Counseling", "Personal Development"],
+      "types_of_therapy": ["Solution-Focused Therapy", "Emotionally Focused Therapy (EFT)"],
+      "price": "$110 per session"
+    },
+    {
+      "name": "Dr. Meera Joshi",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "description": "Compassionate therapist specializing in holistic wellness and mindfulness practices.",
+      "qualifications": ["Ph.D. in Counseling Psychology", "Certified Yoga Instructor"],
+      "experience": "15 years",
+      "gender": "Female",
+      "issues": ["Stress Management", "Life Transitions", "Self-exploration"],
+      "types_of_therapy": ["Mindfulness-Based Stress Reduction (MBSR)", "Transpersonal Therapy"],
+      "price": "$95 per session"
+    },
+    {
+      "name": "Dr. Rakesh Sharma",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "description": "Experienced psychologist specializing in cognitive therapy for adolescents and adults.",
+      "qualifications": ["Ph.D. in Clinical Psychology", "Certified Cognitive Therapist"],
+      "experience": "14 years",
+      "gender": "Male",
+      "issues": ["Cognitive Distortions", "Phobias", "Obsessive-Compulsive Disorder (OCD)"],
+      "types_of_therapy": ["Cognitive Therapy", "Behavioral Activation"],
+      "price": "$85 per session"
+    },
+    {
+      "name": "Dr. Priyanka Reddy",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "description": "Empathetic counselor providing trauma-informed therapy for survivors of abuse and violence.",
+      "qualifications": ["Masters in Counseling Psychology", "Certified Trauma Counselor"],
+      "experience": "9 years",
+      "gender": "Female",
+      "issues": ["Domestic Violence", "Sexual Abuse", "Post-Traumatic Stress Disorder (PTSD)"],
+      "types_of_therapy": ["Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)", "Narrative Therapy"],
+      "price": "$75 per session"
+    },
+    {
+      "name": "Dr. Siddharth Shah",
+      "city": "Surat",
+      "state": "Gujarat",
+      "description": "Skilled therapist specializing in dialectical behavior therapy for mood and personality disorders.",
+      "qualifications": ["MD in Psychiatry", "Certified DBT Therapist"],
+      "experience": "11 years",
+      "gender": "Male",
+      "issues": ["Borderline Personality Disorder (BPD)", "Emotion Dysregulation", "Self-harm"],
+      "types_of_therapy": ["Dialectical Behavior Therapy (DBT)", "Schema Therapy"],
+      "price": "$130 per session"
+    },
+    {
+      "name": "Dr. Neha Kapoor",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "description": "Experienced counselor offering supportive
+
+ therapy for individuals facing life challenges.",
+      "qualifications": ["MA in Counseling", "Licensed Professional Counselor"],
+      "experience": "13 years",
+      "gender": "Female",
+      "issues": ["Life Transitions", "Career Counseling", "Personal Growth"],
+      "types_of_therapy": ["Person-Centered Therapy", "Strengths-Based Therapy"],
+      "price": "$90 per session"
+    },
+    {
+      "name": "Dr. Rahul Desai",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "description": "Compassionate therapist specializing in mindfulness-based approaches to stress reduction.",
+      "qualifications": ["Masters in Clinical Psychology", "Certified Mindfulness Practitioner"],
+      "experience": "7 years",
+      "gender": "Male",
+      "issues": ["Anxiety", "Burnout", "Workplace Stress"],
+      "types_of_therapy": ["Mindfulness-Based Cognitive Therapy (MBCT)", "Acceptance and Commitment Therapy (ACT)"],
+      "price": "$95 per session"
+    },
+    {
+      "name": "Dr. Nisha Sharma",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "description": "Experienced therapist specializing in family therapy and conflict resolution.",
+      "qualifications": ["Ph.D. in Counseling Psychology", "Certified Family Therapist"],
+      "experience": "16 years",
+      "gender": "Female",
+      "issues": ["Family Conflict", "Parent-Child Relationships", "Divorce"],
+      "types_of_therapy": ["Family Systems Therapy", "Conflict Resolution Therapy"],
+      "price": "$100 per session"
+    },
+    {
+      "name": "Dr. Anand Kumar",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "description": "Dedicated therapist providing support for individuals dealing with grief and loss.",
+      "qualifications": ["Masters in Clinical Psychology", "Certified Grief Counselor"],
+      "experience": "9 years",
+      "gender": "Male",
+      "issues": ["Bereavement", "Loss of a Loved One", "Terminal Illness"],
+      "types_of_therapy": ["Grief Counseling", "Existential Therapy"],
+      "price": "$80 per session"
+    },
+    {
+      "name": "Dr. Preeti Gupta",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "description": "Empathetic counselor offering person-centered therapy for individuals seeking personal growth.",
+      "qualifications": ["MA in Counseling Psychology", "Licensed Clinical Psychologist"],
+      "experience": "12 years",
+      "gender": "Female",
+      "issues": ["Self-exploration", "Identity Development", "Life Purpose"],
+      "types_of_therapy": ["Person-Centered Therapy", "Existential-Humanistic Therapy"],
+      "price": "$85 per session"
+    },
+    {
+      "name": "Dr. Karthik Reddy",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "description": "Experienced therapist specializing in addiction recovery and relapse prevention.",
+      "qualifications": ["MD in Psychiatry", "Certified Addiction Specialist"],
+      "experience": "14 years",
+      "gender": "Male",
+      "issues": ["Substance Abuse", "Alcohol Addiction", "Relapse Prevention"],
+      "types_of_therapy": ["Motivational Interviewing", "12-Step Facilitation"],
+      "price": "$110 per session"
+    },
+    {
+      "name": "Dr. Ananya Das",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "description": "Skilled therapist providing trauma-informed care for survivors of abuse and violence.",
+      "qualifications": ["Ph.D. in Clinical Psychology", "Certified Trauma-Informed Therapist"],
+      "experience": "11 years",
+      "gender": "Female",
+      "issues": ["Domestic Violence", "Sexual Assault", "Child Abuse"],
+      "types_of_therapy": ["Trauma-Informed Cognitive Behavioral Therapy (CBT)", "Narrative Exposure Therapy (NET)"],
+      "price": "$95 per session"
+    },
+    {
+      "name": "Dr. Sameer Joshi",
+      "city": "Patna",
+      "state": "Bihar",
+      "description": "Empathetic counselor providing support for individuals navigating life transitions.",
+      "qualifications": ["Masters in Counseling Psychology", "Certified Life Coach"],
+      "experience": "10 years",
+      "gender": "Male",
+      "issues": ["Career Changes", "Relationship Transitions", "Retirement Planning"],
+      "types_of_therapy": ["Life Coaching", "Transition Counseling"],
+      "price": "$90 per session"
+    },
+    {
+      "name": "Dr. Neha Sharma",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "description": "Experienced psychologist offering cognitive-behavioral therapy for anxiety and stress management.",
+      "qualifications": ["Ph.D. in Clinical Psychology", "Certified CBT Therapist"],
+      "experience": "13 years",
+      "gender": "Female",
+      "issues": ["Anxiety Disorders", "Panic Attacks", "Stress Management"],
+      "types_of_therapy": ["Cognitive-Behavioral Therapy (CBT)", "Exposure Therapy"],
+      "price": "$100 per session"
+    }
+]
 export const NewsData = [
   {
     source: {
@@ -206,549 +450,549 @@ export const NewsData = [
     content:
       "Fatima Hariri grew up in a Syrian refugee camp in Jordan. She felt trapped. She wanted to escape. \r\nWhen filmmaker Mohsin Mohi-Ud-Din first met Hariri a decade ago, the 14-year-old would barely speak… [+2463 chars]",
   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Jen Glantz",
-//     title:
-//       "I've been a Southwest pilot for 33 years. The loneliness affects my mental health, but I've learned tricks for coping.",
-//     description:
-//       "An Air Force veteran turned Southwest pilot says the job can be very lonely. He copes by befriending copilots and exploring cities on layovers.",
-//     url: "https://www.businessinsider.com/pilot-lonely-job-how-copes-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/6601e5ad1caec1275a69498f?width=1200&format=jpeg",
-//     publishedAt: "2024-03-27T09:10:01Z",
-//     content:
-//       "Robert Graves flies 15 days a month and has 15 days off, on average.Courtesy of Robert Gaves, anna42f/Getty, Tyler Le/BI\r\n<ul><li>Robert Graves started flying in the Air Force and has been a Southwes… [+6980 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "NPR",
-//     },
-//     author: null,
-//     title:
-//       "California voters pass Proposition 1 to tackle the state's homelessness crisis",
-//     description:
-//       "Counties are now required to spend about two-thirds of the money from a news tax enacted on housing and programs for the homeless with serious mental illnesses or substance abuse problems.",
-//     url: "https://www.npr.org/2024/03/21/1239811952/california-proposition-1-homeless",
-//     urlToImage:
-//       "https://media.npr.org/assets/img/2024/03/21/ap24080842105100_wide-4dd0947e7ab289cc153e24e3dcfe9b7717365fe2-s1400-c100.jpg",
-//     publishedAt: "2024-03-21T05:33:50Z",
-//     content:
-//       "California Gov. Gavin Newsom speaks in support of Proposition 1, a $6.38 billion bond ballot measure, during a news conference at the Los Angeles General Medical Center in Los Angeles, Wednesday, Jan… [+5043 chars]",
-//   },
-//   {
-//     source: {
-//       id: "bbc-news",
-//       name: "BBC News",
-//     },
-//     author: "https://www.facebook.com/bbcnews",
-//     title: "Rapid review finds 'enduring' concerns at NHS trust",
-//     description:
-//       'The review of the NHS trust that treated the Nottingham attacks killer finds "ongoing concerns".',
-//     url: "https://www.bbc.co.uk/news/uk-england-nottinghamshire-68659691",
-//     urlToImage:
-//       "https://ichef.bbci.co.uk/news/1024/branded_news/2499/production/_132396390_rampton.jpg",
-//     publishedAt: "2024-03-26T10:21:02Z",
-//     content:
-//       'A government-ordered rapid review prompted by the Nottingham attacks has found "enduring areas of concern" at a mental health trust.\r\nThe Care Quality Commission (CQC) said there were continuing issu… [+2288 chars]',
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Matthew Loh",
-//     title:
-//       "Buckingham Palace's gates are boarded up after someone crashed a car into them, police say",
-//     description:
-//       "Police said a man was arrested on Saturday after the car crashed into the gates at around 2:35 a.m. The incident is not believed to be terror-related.",
-//     url: "https://www.businessinsider.com/buckingham-palace-gates-boarded-up-after-car-crashed-into-them-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65ee6f306080194819fe847d?width=1200&format=jpeg",
-//     publishedAt: "2024-03-11T03:06:04Z",
-//     content:
-//       "Police said a car crashed into the Buckingham Palace gates on Saturday.JUSTIN TALLIS/AFP via Getty Images\r\n<ul><li>London police said a car crashed into the gates of Buckingham Palace on Saturday mor… [+2047 chars]",
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Jacob Zinkula",
-//     title:
-//       "Oldest siblings tend to make more money. Researchers have a new theory that explains why.",
-//     description:
-//       "Younger siblings tend to earn less money than their older siblings. Differences in early health outcomes could explain why.",
-//     url: "https://www.businessinsider.com/why-oldest-siblings-make-more-money-younger-siblings-healthcare-denmark-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65e75b816080194819fca278?width=1200&format=jpeg",
-//     publishedAt: "2024-03-07T11:03:01Z",
-//     content:
-//       "Researchers have a new theory for why older siblings tend to make more money than their younger siblings.Getty Images\r\n<ul><li>An NBER working paper found that older siblings tend to make more money … [+5596 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Harvard Business Review",
-//     },
-//     author: "Malissa Clark",
-//     title: "How to Fix Your Company’s Culture of Overwork",
-//     description:
-//       "The new age of flexible of work has encouraged a culture of overwork, which is proving to be harmful to the mental health of employees. In her new book, Never Not Working, Malissa Clark offers a three-step process for organizations to reverse this unhealthy r…",
-//     url: "https://hbr.org/2024/03/how-to-fix-your-companys-culture-of-overwork",
-//     urlToImage:
-//       "https://hbr.org/resources/images/article_assets/2024/03/Mar24_18_4800043.jpg",
-//     publishedAt: "2024-03-18T12:05:54Z",
-//     content:
-//       "Associate professor and head of the Healthy Work Lab at the University of Georgia, Malissa Clark, argues that in a post-pandemic work landscape that transcends buildings and hours the boundaries of p… [+505 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Android Central",
-//     },
-//     author: "tips@androidcentral.com (Nickolas Diaz)",
-//     title:
-//       "Fitbit looks to keep users active through 'Walk Mate' notifications",
-//     description:
-//       "Fitbit's latest study brings personalized notifications to help keep users who join active.",
-//     url: "https://www.androidcentral.com/apps-software/fitbit-kickstarts-walk-mate-notifications-study",
-//     urlToImage:
-//       "https://cdn.mos.cms.futurecdn.net/oAWkszgRBo5TqBcQN5RPaM-1200-80.jpg",
-//     publishedAt: "2024-03-12T20:45:07Z",
-//     content:
-//       '<ul><li>Fitbit has launched the "Walk Mate" program, which will last two months as the company is eager to learn how to better encourage users to "stay active."</li><li>Users will be given personaliz… [+2450 chars]',
-//   },
-//   {
-//     source: {
-//       id: "abc-news",
-//       name: "ABC News",
-//     },
-//     author: "The Associated Press",
-//     title:
-//       "Philadelphia mass shooting suspect is headed to trial after mental health treatment",
-//     description:
-//       "The suspect in a Philadelphia mass shooting last summer who had been deemed mentally incompetent is headed to trial after his lawyers told a judge he has been undergoing treatment and is prepared to move forward with the case",
-//     url: "https://abcnews.go.com/US/wireStory/philadelphia-mass-shooting-suspect-headed-trial-after-receiving-108320475",
-//     urlToImage:
-//       "https://i.abcnewsfe.com/a/c8be81ec-aeb0-4f3c-98e2-ddcb2d7d7f60/wirestory_02cc55c50c085da10f95ec0f061ea25b_16x9.jpg?w=1600",
-//     publishedAt: "2024-03-20T18:31:38Z",
-//     content:
-//       "PHILADELPHIA -- The suspect in a Philadelphia mass shooting last summer who had been deemed mentally incompetent is headed to trial after his lawyers told a judge he has been undergoing treatment and… [+1836 chars]",
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Brent D. Griffiths",
-//     title:
-//       "Biden reportedly worried during the pandemic about how young people could 'make love'",
-//     description:
-//       'Biden\'s concerns, according to The Post, were rooted in "his near-daily conversations with his grandchildren."',
-//     url: "https://www.businessinsider.com/biden-worried-during-pandemic-young-people-sex-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65e1eb4e90413ab8e1d830b3?width=1200&format=jpeg",
-//     publishedAt: "2024-03-01T15:49:45Z",
-//     content:
-//       "President Joe Biden.AP Photo/Susan Walsh\r\n<ul><li>Joe Biden was reportedly concerned about young Americans' sex lives during the pandemic.</li><li>According to The Washington Post, Biden asked aides … [+1843 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Scientific American",
-//     },
-//     author: "Norman Farb, Zindel Segal",
-//     title: "Paying Attention to Sensations Can Help Reset the Mind",
-//     description:
-//       "Learning to observe bodily sensation is a powerful strategy for improving mental health",
-//     url: "https://www.scientificamerican.com/article/paying-attention-to-sensations-can-help-reset-the-mind/",
-//     urlToImage:
-//       "https://static.scientificamerican.com/dam/m/262560c943bc6429/original/GettyImages-1486755652_WEB.jpg?w=1200",
-//     publishedAt: "2024-03-08T14:00:00Z",
-//     content:
-//       "Having grown up in the Danish city of Copenhagen, chef René Redzepi recalls feeling dissatisfied with the fast-food world to which many city-dwellers were accustomed. He instead attributes his love f… [+8036 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "ReadWrite",
-//     },
-//     author: "Graeme Hanna",
-//     title: "Workers express fears over emotion-tracking AI",
-//     description:
-//       "Workers have expressed concerns for their well-being and privacy regarding the use of emotion AI in the workplace. An academic… Continue reading Workers express fears over emotion-tracking AI\nThe post Workers express fears over emotion-tracking AI appeared fi…",
-//     url: "https://readwrite.com/workers-express-fears-over-emotion-tracking-ai/",
-//     urlToImage:
-//       "https://readwrite.com/wp-content/uploads/2024/03/qAJX0F8dTUSi8wLoNx76qw.png",
-//     publishedAt: "2024-03-07T17:22:06Z",
-//     content:
-//       "Workers have expressed concerns for their well-being and privacy regarding the use of emotion AI in the workplace.\r\nAn academic study, reported on by The Conversation, has assessed how effective empl… [+2023 chars]",
-//   },
-//   {
-//     source: {
-//       id: "bbc-news",
-//       name: "BBC News",
-//     },
-//     author: "https://www.facebook.com/bbcnews",
-//     title: "'No option of life on benefits for young' - Labour",
-//     description:
-//       'Liz Kendall is expected to say young people have a "responsibility" to take up jobs and training.',
-//     url: "https://www.bbc.co.uk/news/uk-68463623",
-//     urlToImage:
-//       "https://ichef.bbci.co.uk/news/1024/branded_news/CAAA/production/_132828815_gettyimages-1715118774.jpg",
-//     publishedAt: "2024-03-03T22:30:06Z",
-//     content:
-//       'There will be "no option of a life on benefits" for young people under Labour, its shadow work secretary will declare in a speech on Monday.\r\nLiz Kendall is expected to say the party will invest in c… [+2210 chars]',
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "ReadWrite",
-//     },
-//     author: "Suswati Basu",
-//     title: "Canada schools sue social media giants for $4.5bn",
-//     description:
-//       "Schools in several major cities in Canada have initiated legal actions against social media corporations, including Meta Platforms Inc.’s Facebook,… Continue reading Canada schools sue social media giants for $4.5bn\nThe post Canada schools sue social media gi…",
-//     url: "https://readwrite.com/canada-schools-sue-social-media-giants-for-4-5bn/",
-//     urlToImage:
-//       "https://readwrite.com/wp-content/uploads/2024/03/Canada-schools-sue-social-media-giants-for-4.5bn.png",
-//     publishedAt: "2024-03-28T18:53:44Z",
-//     content:
-//       "Schools in several major cities in Canada have initiated legal actions against social media corporations, including Meta Platforms Inc.s Facebook, alleging that these platforms hurt children’s mental… [+2847 chars]",
-//   },
-//   {
-//     source: {
-//       id: "the-next-web",
-//       name: "The Next Web",
-//     },
-//     author: "The Conversation",
-//     title:
-//       "Digital mindfulness could help reduce the effects of technostress at work",
-//     description:
-//       "Technology-related stress, overload, and anxiety are common problems in today’s workplace, potentially leading to higher burnout and poorer health. Many of these issues are likely to have increased since remote working became much more widespread following th…",
-//     url: "https://thenextweb.com/news/digital-mindfulness-reduce-effects-technostress-work",
-//     urlToImage:
-//       "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F03%2FUntitled-design-13.jpg&signature=797a6c4a8cb208bc8838375fdf13b12f",
-//     publishedAt: "2024-03-29T10:00:18Z",
-//     content:
-//       "Technology-related stress, overload, and anxiety are common problems in todays workplace, potentially leading to higher burnout and poorer health. Many of these issues are likely to have increased si… [+5054 chars]",
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Madison Hall",
-//     title:
-//       "Another major poll shows the vast majority of voters don't think Biden is physically fit to serve as president",
-//     description:
-//       "On Sunday, two separate polls said most adults and voters think Biden is either too old or not mentally or physically fit enough for another term.",
-//     url: "https://www.businessinsider.com/joe-biden-age-fitness-polls-election-donald-trump-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65c53bec43bb77284ba513aa?width=1200&format=jpeg",
-//     publishedAt: "2024-03-04T16:08:52Z",
-//     content:
-//       "President Joe Biden answers questions while departing the White House on January 30, 2024, in Washington, DC.Win McNamee/Getty Images\r\n<ul><li>Concerns about Biden's mental and physical fitness conti… [+2493 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "MacRumors",
-//     },
-//     author: "Hartley Charlton",
-//     title: "Apple Pitches Vision Pro as Healthcare Solution",
-//     description:
-//       "Apple today highlighted the Vision Pro's ability to aid the healthcare industry, showcasing a wide range of apps now available on the visionOS App Store.\n\n\n\n\n\nApple explained how immersive apps that blend digital content with the physical world can transform …",
-//     url: "https://www.macrumors.com/2024/03/11/apple-pitches-vision-pro-as-healthcare-solution/",
-//     urlToImage:
-//       "https://images.macrumors.com/t/5iJhgoz_pSaVGcn3Zg5MMF5wsd0=/3840x/article-new/2024/03/Apple-Vision-Pro-health-apps-Epic-Spatial-Computing-Concept.jpg",
-//     publishedAt: "2024-03-11T13:34:23Z",
-//     content:
-//       "Apple today highlighted the Vision Pro's ability to aid the healthcare industry, showcasing a wide range of apps now available on the visionOSApp Store.\r\nApple explained how immersive apps that blend… [+1168 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "CNET",
-//     },
-//     author: "Macy Meyer",
-//     title: "7 Fitness Hacks to Sneak in Exercise Painlessly Every Day - CNET",
-//     description:
-//       "Incorporating these exercises is much easier than you think and won't leave you feeling miserable.",
-//     url: "https://www.cnet.com/health/fitness/7-fitness-hacks-to-sneak-in-exercise-painlessly-every-day/",
-//     urlToImage:
-//       "https://www.cnet.com/a/img/resize/a7bb44d53e74370087584d122d47419a78d6d84f/hub/2023/02/17/c105467e-058c-46a0-9a05-46ea117f777b/gettyimages-960937940.jpg?auto=webp&fit=crop&height=675&width=1200",
-//     publishedAt: "2024-03-30T10:00:00Z",
-//     content:
-//       "I'm far from the first person to say it, but exercise is essential for our overall health. Exercise helps with boosting your mood, relieving stress, increasing energy, improving sleep quality and low… [+6820 chars]",
-//   },
-//   {
-//     source: {
-//       id: "new-scientist",
-//       name: "New Scientist",
-//     },
-//     author: "Grace Wade",
-//     title: "Mental illness may accelerate ageing by damaging RNA",
-//     description:
-//       "People with mental illness have greater amounts of damaged RNA than those without a mental health condition, which might explain the link between mental illness and age-related diseases such as cancer",
-//     url: "https://www.newscientist.com/article/2422206-mental-illness-may-accelerate-ageing-by-damaging-rna/",
-//     urlToImage:
-//       "https://images.newscientist.com/wp-content/uploads/2024/03/14195525/SEI_195873724.jpg",
-//     publishedAt: "2024-03-15T13:00:34Z",
-//     content:
-//       "We may be closer to understanding why mental illness increases the risk of age-related diseases\r\nXesai/Getty Images\r\nPeople with a mental health condition have more RNA damage than those without one.… [+359 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Yanko Design",
-//     },
-//     author: "Srishti Mitra",
-//     title: "Top 10 Meditation Tools To Help You Achieve A Zen Mental State",
-//     description:
-//       "Top 10 Meditation Tools To Help You Achieve A Zen Mental StateLook, I know life can get hectic and work can be super exhausting, which can be brutal for our mental health. Taking care of our...",
-//     url: "https://www.yankodesign.com/2024/03/13/top-10-meditation-tools-to-help-you-achieve-a-zen-mental-state/",
-//     urlToImage:
-//       "https://www.yankodesign.com/images/design_news/2024/03/top-10-meditation-tools/top_10_meditation_tools_yanko_design_hero.jpeg",
-//     publishedAt: "2024-03-13T11:40:24Z",
-//     content:
-//       "Look, I know life can get hectic and work can be super exhausting, which can be brutal for our mental health. Taking care of our mental well-being has never been more essential, considering how chaot… [+9251 chars]",
-//   },
-//   {
-//     source: {
-//       id: "time",
-//       name: "Time",
-//     },
-//     author: "Solcyré Burga",
-//     title:
-//       "Children Will No Longer Be Able to Access Puberty Blockers at England Clinics",
-//     description:
-//       "Children in England will no longer receive puberty blocker prescriptions, the National Health Service (NHS) of England said",
-//     url: "https://time.com/6900330/nhs-bans-puberty-blockers-england-clinics/",
-//     urlToImage:
-//       "https://api.time.com/wp-content/uploads/2024/03/GettyImages-1248341537.jpg?quality=85",
-//     publishedAt: "2024-03-12T22:03:11Z",
-//     content:
-//       "Children in England will no longer receive puberty blocker prescriptions, the National Health Service (NHS) of England said, confirming that the medicine will only be provided to youth who were takin… [+4905 chars]",
-//   },
-//   {
-//     source: {
-//       id: "bbc-news",
-//       name: "BBC News",
-//     },
-//     author: "https://www.facebook.com/bbcnews",
-//     title: "Trans treatment waiting list a ‘death sentence’",
-//     description:
-//       "Patients for NHS gender clinics could face a years-long wait for NHS treatment, data suggests.",
-//     url: "https://www.bbc.co.uk/news/uk-68602939",
-//     urlToImage:
-//       "https://ichef.bbci.co.uk/news/1024/branded_news/17D87/production/_131117679_img_6345.jpg",
-//     publishedAt: "2024-03-20T06:17:49Z",
-//     content:
-//       'Transgender patients facing a years-long wait for NHS gender care are being handed a "death sentence", says the mum of a trans woman who took her own life.\r\nData obtained by Newsnight and analysed by… [+6071 chars]',
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "CNET",
-//     },
-//     author: "Taylor Leamey",
-//     title:
-//       "Your Circadian Rhythm Could Explain Your Poor Mental Health. What to Know - CNET",
-//     description:
-//       "If your mental health has been declining, your sleep-wake cycle may be to blame, according to a new review of literature.",
-//     url: "https://www.cnet.com/health/sleep/your-circadian-rhythm-could-explain-your-poor-mental-health-what-to-know/",
-//     urlToImage:
-//       "https://www.cnet.com/a/img/resize/c28f40ef233b60b4c34931fb492f42550afb319a/hub/2024/03/13/5913499d-236f-445a-8f6b-ce34ff5f797f/gettyimages-1473158044.jpg?auto=webp&fit=crop&height=675&width=1200",
-//     publishedAt: "2024-03-14T17:00:04Z",
-//     content:
-//       "There's a lot of research into sleep disturbances and mental health. I've written several stories that explore the topics over the years. But there's less research around the extent to which your cir… [+8339 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "AppleInsider",
-//     },
-//     author: "news@appleinsider.com (David Schloss)",
-//     title:
-//       "Future Apple Vision Pro brainwave sensors could improve mental and physical health",
-//     description:
-//       "Apple is working on technology that could turn the Apple Vision Pro into a brainwave reader to improve mental health, assist with training and workouts, and help with mindfulness.Any number of sensors, including brainwave and biometric, could be part of futur…",
-//     url: "https://appleinsider.com/articles/24/03/21/future-apple-vision-pro-brainwave-sensors-could-improve-mental-and-physical-health",
-//     urlToImage:
-//       "https://photos5.appleinsider.com/gallery/59046-120515-headband2-xl.jpg",
-//     publishedAt: "2024-03-21T15:54:09Z",
-//     content:
-//       "Any number of sensors, including brainwave and biometric, could be part of future headset plans.\r\nApple is working on technology that could turn the Apple Vision Pro into a brainwave reader to improv… [+4053 chars]",
-//   },
-//   {
-//     source: {
-//       id: "bbc-news",
-//       name: "BBC News",
-//     },
-//     author: "https://www.facebook.com/bbcnews",
-//     title: "Pupil behaviour getting worse, say teachers",
-//     description:
-//       "A survey reveals nearly one in five teachers in England has been hit by a pupil this year.",
-//     url: "https://www.bbc.co.uk/news/education-68674568",
-//     urlToImage:
-//       "https://ichef.bbci.co.uk/news/1024/branded_news/D090/production/_133029335_gettyimages-1460738530.jpg",
-//     publishedAt: "2024-03-28T00:55:35Z",
-//     content:
-//       'Nearly one in five teachers in England has been hit by a pupil this year, a survey commissioned by the BBC says.\r\nOne teacher told BBC News behaviour was a "never-ending battle". Another said spittin… [+6276 chars]',
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Scientific American",
-//     },
-//     author: "Ingrid Wickelgren",
-//     title: "Why Do So Many Mental Illnesses Overlap?",
-//     description:
-//       "A concept called the “p factor” attempts to explain why psychiatric disorders cannot be clearly separated",
-//     url: "https://www.scientificamerican.com/article/why-do-so-many-mental-illnesses-overlap/",
-//     urlToImage:
-//       "https://static.scientificamerican.com/dam/m/1e4d44804b7b3b28/original/GettyImages-1752189140.jpg?w=1200",
-//     publishedAt: "2024-03-04T13:30:00Z",
-//     content:
-//       "When a young woman earning her Ph.D. in biostatistics came to see psychiatrist Michael Gandal with symptoms of psychosis, she became the fifth person in her immediate family to be diagnosed with a ne… [+16564 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "GameSpot",
-//     },
-//     author: "Lan Pitts",
-//     title: "New Spider-Man Animated Short Raises Awareness For Mental Health",
-//     description:
-//       "Announced last summer, The Spider Within: A Spider-Verse Story is a short animated film focused on Miles Morales having an anxiety attack that takes on a physical manifestation. The short film debuted at Annecy International Film Festival and finally debuts o…",
-//     url: "https://www.gamespot.com/articles/new-spider-man-animated-short-raises-awareness-for-mental-health/1100-6522201/",
-//     urlToImage:
-//       "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15976769/4279236-gjrtbi9xkaazbtq.jpg",
-//     publishedAt: "2024-03-27T14:33:00Z",
-//     content:
-//       "Announced last summer, The Spider Within: A Spider-Verse Story is a short animated film focused on Miles Morales having an anxiety attack that takes on a physical manifestation. The short film debute… [+1399 chars]",
-//   },
-//   {
-//     source: {
-//       id: "time",
-//       name: "Time",
-//     },
-//     author: "Armani Syed",
-//     title:
-//       "A Paparazzi Photo of Kate Middleton Hasn’t Put People at Ease About Her Health",
-//     description:
-//       "After weeks of social media speculation, she has been spotted in public for the first time since undergoing abdominal surgery.",
-//     url: "https://time.com/6837732/kate-middleton-health-tmz-photo/",
-//     urlToImage:
-//       "https://api.time.com/wp-content/uploads/2024/03/kate-middleton-health.jpg?quality=85",
-//     publishedAt: "2024-03-05T12:25:06Z",
-//     content:
-//       "Kate Middleton has been spotted for the first time since she underwent a planned abdominal surgery two months ago. \r\nOn Monday, TMZ published images of the 42-year-old Princess of Wales in a car with… [+2449 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Vox",
-//     },
-//     author: "Oshan Jarow",
-//     title:
-//       "The world’s mental health is in rough shape — and not getting any better, a new report finds",
-//     description:
-//       "Mental Health State of the World report reveals which countries have better mental health and well-being.",
-//     url: "https://www.vox.com/future-perfect/2024/3/8/24093650/mental-health-report-happiness-growth-well-being-smartphones",
-//     urlToImage:
-//       "https://cdn.vox-cdn.com/thumbor/0y_55fwus1stiKUhfy7wheiUZTs=/0x2059:7000x5724/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25323575/GettyImages_1308460514.jpg",
-//     publishedAt: "2024-03-08T12:00:00Z",
-//     content:
-//       "Getty Images\r\n\n \n\n Guess where the US ranks? While running a microfinance company working across rural India in 2014, neuroscientist Tara Thiagarajan had a free Sunday, a portable EEG headset, and a … [+9678 chars]",
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Cameron Manley",
-//     title:
-//       "Miami real-estate tycoon Patrick Carroll was ordered to undergo psychiatric evaluation following bizarre gun video, report says",
-//     description:
-//       "Patrick Carroll was ordered to undergo a psychiatric evaluation and give up his firearms following reports of gunshots at his home last week.",
-//     url: "https://www.businessinsider.com/patrick-carroll-ordered-mental-health-evaluation-miami-police-instagram-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65fdadc62417f97b87ce6ee5?width=1200&format=jpeg",
-//     publishedAt: "2024-03-30T16:29:22Z",
-//     content:
-//       "Patrick Carroll.Victoria Sirakova/Getty Images\r\n<ul><li>Patrick Carroll posted clips of himself firing a shotgun outside his waterfront mansion in Miami.</li><li>Police ordered the real-estate tycoon… [+2097 chars]",
-//   },
-//   {
-//     source: {
-//       id: "business-insider",
-//       name: "Business Insider",
-//     },
-//     author: "Dakin Campbell,Nicole Einbinder",
-//     title: "Inside a prison healthcare company's ownership shell game",
-//     description:
-//       "Experts say YesCare's corporate structure was highly unusual and may have been designed to divert profits and evade accountability for prisoner health care.",
-//     url: "https://www.businessinsider.com/prison-health-company-yescare-ceded-financial-control-to-insider-entities-2024-3",
-//     urlToImage:
-//       "https://i.insider.com/65e753036080194819fc99b7?width=1200&format=jpeg",
-//     publishedAt: "2024-03-05T19:05:11Z",
-//     content:
-//       "Posters for YesCare and Corizon are on display at the Doña Ana Detention Center in Las Cruces, New Mexico, which contracted out its health care services to the companies.Adria Malcolm for Business In… [+19823 chars]",
-//   },
-//   {
-//     source: {
-//       id: null,
-//       name: "Jyotirgamya.org",
-//     },
-//     author: null,
-//     title: "The Forgiver's Dilemma: Can Letting Go Set You Free?",
-//     description:
-//       "Struggling to forgive someone who hurt you? Learn healthy ways to manage anger, protect yourself, and prioritize your mental well-being. Explore alternatives to forgiveness and find peace, even if forgiving feels impossible.",
-//     url: "https://jyotirgamya.org/opinion/forgivers-dilemma/",
-//     urlToImage: null,
-//     publishedAt: "2024-03-08T13:03:49Z",
-//     content:
-//       "Imagine two people in a relationship, like friends or partners. One person (let’s call her Samantha) does something wrong to the other (David), like backstabbing, espionage, stalking, or breaking a p… [+8449 chars]",
-//   },
-//   {
-//     source: {
-//       id: "buzzfeed",
-//       name: "Buzzfeed",
-//     },
-//     author: "Alexa Lisitza",
-//     title:
-//       "5 Times The Royal Family Seemingly Hid Their Illnesses From The Public",
-//     description:
-//       'The public was told King George VI had his lung removed due to “structural abnormalities."View Entire Post ›',
-//     url: "https://www.buzzfeed.com/alexalisitza/royal-family-health-issues",
-//     urlToImage:
-//       "https://img.buzzfeed.com/buzzfeed-static/static/2024-03/11/20/enhanced/3cbda888537a/original-1321-1710190133-2.jpg?crop=1581:830;0,0%26downsize=1250:*",
-//     publishedAt: "2024-03-12T13:14:39Z",
-//     content:
-//       "Whether you can say Princess Margaret's mental health struggles were deliberately hidden or simply not taken seriously in the era she dealt with them is up for debate. Regardless, the princess has be… [+755 chars]",
-//   },
-//   {
-//     source: {
-//       id: "bbc-news",
-//       name: "BBC News",
-//     },
-//     author: "https://www.facebook.com/bbcnews",
-//     title: "Move over beer - Germany decriminalises cannabis",
-//     description:
-//       "Campaigners hail the law shift, which comes into force on 1 April - though police are less thrilled.",
-//     url: "https://www.bbc.co.uk/news/world-europe-68674813",
-//     urlToImage:
-//       "https://ichef.bbci.co.uk/news/1024/branded_news/12952/production/_133041167_cannabis-gettyimages-1366397567.jpg",
-//     publishedAt: "2024-04-01T00:22:25Z",
-//     content:
-//       '"Some German people drink their beer after work. We just want to smoke our weed."\r\nSo says Marcel Ritschel who\'s celebrating as Germany - traditionally "beer land" - becomes a more cannabis-friendly … [+5283 chars]',
-//   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Jen Glantz",
+  //     title:
+  //       "I've been a Southwest pilot for 33 years. The loneliness affects my mental health, but I've learned tricks for coping.",
+  //     description:
+  //       "An Air Force veteran turned Southwest pilot says the job can be very lonely. He copes by befriending copilots and exploring cities on layovers.",
+  //     url: "https://www.businessinsider.com/pilot-lonely-job-how-copes-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/6601e5ad1caec1275a69498f?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-27T09:10:01Z",
+  //     content:
+  //       "Robert Graves flies 15 days a month and has 15 days off, on average.Courtesy of Robert Gaves, anna42f/Getty, Tyler Le/BI\r\n<ul><li>Robert Graves started flying in the Air Force and has been a Southwes… [+6980 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "NPR",
+  //     },
+  //     author: null,
+  //     title:
+  //       "California voters pass Proposition 1 to tackle the state's homelessness crisis",
+  //     description:
+  //       "Counties are now required to spend about two-thirds of the money from a news tax enacted on housing and programs for the homeless with serious mental illnesses or substance abuse problems.",
+  //     url: "https://www.npr.org/2024/03/21/1239811952/california-proposition-1-homeless",
+  //     urlToImage:
+  //       "https://media.npr.org/assets/img/2024/03/21/ap24080842105100_wide-4dd0947e7ab289cc153e24e3dcfe9b7717365fe2-s1400-c100.jpg",
+  //     publishedAt: "2024-03-21T05:33:50Z",
+  //     content:
+  //       "California Gov. Gavin Newsom speaks in support of Proposition 1, a $6.38 billion bond ballot measure, during a news conference at the Los Angeles General Medical Center in Los Angeles, Wednesday, Jan… [+5043 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "bbc-news",
+  //       name: "BBC News",
+  //     },
+  //     author: "https://www.facebook.com/bbcnews",
+  //     title: "Rapid review finds 'enduring' concerns at NHS trust",
+  //     description:
+  //       'The review of the NHS trust that treated the Nottingham attacks killer finds "ongoing concerns".',
+  //     url: "https://www.bbc.co.uk/news/uk-england-nottinghamshire-68659691",
+  //     urlToImage:
+  //       "https://ichef.bbci.co.uk/news/1024/branded_news/2499/production/_132396390_rampton.jpg",
+  //     publishedAt: "2024-03-26T10:21:02Z",
+  //     content:
+  //       'A government-ordered rapid review prompted by the Nottingham attacks has found "enduring areas of concern" at a mental health trust.\r\nThe Care Quality Commission (CQC) said there were continuing issu… [+2288 chars]',
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Matthew Loh",
+  //     title:
+  //       "Buckingham Palace's gates are boarded up after someone crashed a car into them, police say",
+  //     description:
+  //       "Police said a man was arrested on Saturday after the car crashed into the gates at around 2:35 a.m. The incident is not believed to be terror-related.",
+  //     url: "https://www.businessinsider.com/buckingham-palace-gates-boarded-up-after-car-crashed-into-them-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65ee6f306080194819fe847d?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-11T03:06:04Z",
+  //     content:
+  //       "Police said a car crashed into the Buckingham Palace gates on Saturday.JUSTIN TALLIS/AFP via Getty Images\r\n<ul><li>London police said a car crashed into the gates of Buckingham Palace on Saturday mor… [+2047 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Jacob Zinkula",
+  //     title:
+  //       "Oldest siblings tend to make more money. Researchers have a new theory that explains why.",
+  //     description:
+  //       "Younger siblings tend to earn less money than their older siblings. Differences in early health outcomes could explain why.",
+  //     url: "https://www.businessinsider.com/why-oldest-siblings-make-more-money-younger-siblings-healthcare-denmark-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65e75b816080194819fca278?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-07T11:03:01Z",
+  //     content:
+  //       "Researchers have a new theory for why older siblings tend to make more money than their younger siblings.Getty Images\r\n<ul><li>An NBER working paper found that older siblings tend to make more money … [+5596 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Harvard Business Review",
+  //     },
+  //     author: "Malissa Clark",
+  //     title: "How to Fix Your Company’s Culture of Overwork",
+  //     description:
+  //       "The new age of flexible of work has encouraged a culture of overwork, which is proving to be harmful to the mental health of employees. In her new book, Never Not Working, Malissa Clark offers a three-step process for organizations to reverse this unhealthy r…",
+  //     url: "https://hbr.org/2024/03/how-to-fix-your-companys-culture-of-overwork",
+  //     urlToImage:
+  //       "https://hbr.org/resources/images/article_assets/2024/03/Mar24_18_4800043.jpg",
+  //     publishedAt: "2024-03-18T12:05:54Z",
+  //     content:
+  //       "Associate professor and head of the Healthy Work Lab at the University of Georgia, Malissa Clark, argues that in a post-pandemic work landscape that transcends buildings and hours the boundaries of p… [+505 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Android Central",
+  //     },
+  //     author: "tips@androidcentral.com (Nickolas Diaz)",
+  //     title:
+  //       "Fitbit looks to keep users active through 'Walk Mate' notifications",
+  //     description:
+  //       "Fitbit's latest study brings personalized notifications to help keep users who join active.",
+  //     url: "https://www.androidcentral.com/apps-software/fitbit-kickstarts-walk-mate-notifications-study",
+  //     urlToImage:
+  //       "https://cdn.mos.cms.futurecdn.net/oAWkszgRBo5TqBcQN5RPaM-1200-80.jpg",
+  //     publishedAt: "2024-03-12T20:45:07Z",
+  //     content:
+  //       '<ul><li>Fitbit has launched the "Walk Mate" program, which will last two months as the company is eager to learn how to better encourage users to "stay active."</li><li>Users will be given personaliz… [+2450 chars]',
+  //   },
+  //   {
+  //     source: {
+  //       id: "abc-news",
+  //       name: "ABC News",
+  //     },
+  //     author: "The Associated Press",
+  //     title:
+  //       "Philadelphia mass shooting suspect is headed to trial after mental health treatment",
+  //     description:
+  //       "The suspect in a Philadelphia mass shooting last summer who had been deemed mentally incompetent is headed to trial after his lawyers told a judge he has been undergoing treatment and is prepared to move forward with the case",
+  //     url: "https://abcnews.go.com/US/wireStory/philadelphia-mass-shooting-suspect-headed-trial-after-receiving-108320475",
+  //     urlToImage:
+  //       "https://i.abcnewsfe.com/a/c8be81ec-aeb0-4f3c-98e2-ddcb2d7d7f60/wirestory_02cc55c50c085da10f95ec0f061ea25b_16x9.jpg?w=1600",
+  //     publishedAt: "2024-03-20T18:31:38Z",
+  //     content:
+  //       "PHILADELPHIA -- The suspect in a Philadelphia mass shooting last summer who had been deemed mentally incompetent is headed to trial after his lawyers told a judge he has been undergoing treatment and… [+1836 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Brent D. Griffiths",
+  //     title:
+  //       "Biden reportedly worried during the pandemic about how young people could 'make love'",
+  //     description:
+  //       'Biden\'s concerns, according to The Post, were rooted in "his near-daily conversations with his grandchildren."',
+  //     url: "https://www.businessinsider.com/biden-worried-during-pandemic-young-people-sex-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65e1eb4e90413ab8e1d830b3?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-01T15:49:45Z",
+  //     content:
+  //       "President Joe Biden.AP Photo/Susan Walsh\r\n<ul><li>Joe Biden was reportedly concerned about young Americans' sex lives during the pandemic.</li><li>According to The Washington Post, Biden asked aides … [+1843 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Scientific American",
+  //     },
+  //     author: "Norman Farb, Zindel Segal",
+  //     title: "Paying Attention to Sensations Can Help Reset the Mind",
+  //     description:
+  //       "Learning to observe bodily sensation is a powerful strategy for improving mental health",
+  //     url: "https://www.scientificamerican.com/article/paying-attention-to-sensations-can-help-reset-the-mind/",
+  //     urlToImage:
+  //       "https://static.scientificamerican.com/dam/m/262560c943bc6429/original/GettyImages-1486755652_WEB.jpg?w=1200",
+  //     publishedAt: "2024-03-08T14:00:00Z",
+  //     content:
+  //       "Having grown up in the Danish city of Copenhagen, chef René Redzepi recalls feeling dissatisfied with the fast-food world to which many city-dwellers were accustomed. He instead attributes his love f… [+8036 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "ReadWrite",
+  //     },
+  //     author: "Graeme Hanna",
+  //     title: "Workers express fears over emotion-tracking AI",
+  //     description:
+  //       "Workers have expressed concerns for their well-being and privacy regarding the use of emotion AI in the workplace. An academic… Continue reading Workers express fears over emotion-tracking AI\nThe post Workers express fears over emotion-tracking AI appeared fi…",
+  //     url: "https://readwrite.com/workers-express-fears-over-emotion-tracking-ai/",
+  //     urlToImage:
+  //       "https://readwrite.com/wp-content/uploads/2024/03/qAJX0F8dTUSi8wLoNx76qw.png",
+  //     publishedAt: "2024-03-07T17:22:06Z",
+  //     content:
+  //       "Workers have expressed concerns for their well-being and privacy regarding the use of emotion AI in the workplace.\r\nAn academic study, reported on by The Conversation, has assessed how effective empl… [+2023 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "bbc-news",
+  //       name: "BBC News",
+  //     },
+  //     author: "https://www.facebook.com/bbcnews",
+  //     title: "'No option of life on benefits for young' - Labour",
+  //     description:
+  //       'Liz Kendall is expected to say young people have a "responsibility" to take up jobs and training.',
+  //     url: "https://www.bbc.co.uk/news/uk-68463623",
+  //     urlToImage:
+  //       "https://ichef.bbci.co.uk/news/1024/branded_news/CAAA/production/_132828815_gettyimages-1715118774.jpg",
+  //     publishedAt: "2024-03-03T22:30:06Z",
+  //     content:
+  //       'There will be "no option of a life on benefits" for young people under Labour, its shadow work secretary will declare in a speech on Monday.\r\nLiz Kendall is expected to say the party will invest in c… [+2210 chars]',
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "ReadWrite",
+  //     },
+  //     author: "Suswati Basu",
+  //     title: "Canada schools sue social media giants for $4.5bn",
+  //     description:
+  //       "Schools in several major cities in Canada have initiated legal actions against social media corporations, including Meta Platforms Inc.’s Facebook,… Continue reading Canada schools sue social media giants for $4.5bn\nThe post Canada schools sue social media gi…",
+  //     url: "https://readwrite.com/canada-schools-sue-social-media-giants-for-4-5bn/",
+  //     urlToImage:
+  //       "https://readwrite.com/wp-content/uploads/2024/03/Canada-schools-sue-social-media-giants-for-4.5bn.png",
+  //     publishedAt: "2024-03-28T18:53:44Z",
+  //     content:
+  //       "Schools in several major cities in Canada have initiated legal actions against social media corporations, including Meta Platforms Inc.s Facebook, alleging that these platforms hurt children’s mental… [+2847 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "the-next-web",
+  //       name: "The Next Web",
+  //     },
+  //     author: "The Conversation",
+  //     title:
+  //       "Digital mindfulness could help reduce the effects of technostress at work",
+  //     description:
+  //       "Technology-related stress, overload, and anxiety are common problems in today’s workplace, potentially leading to higher burnout and poorer health. Many of these issues are likely to have increased since remote working became much more widespread following th…",
+  //     url: "https://thenextweb.com/news/digital-mindfulness-reduce-effects-technostress-work",
+  //     urlToImage:
+  //       "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F03%2FUntitled-design-13.jpg&signature=797a6c4a8cb208bc8838375fdf13b12f",
+  //     publishedAt: "2024-03-29T10:00:18Z",
+  //     content:
+  //       "Technology-related stress, overload, and anxiety are common problems in todays workplace, potentially leading to higher burnout and poorer health. Many of these issues are likely to have increased si… [+5054 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Madison Hall",
+  //     title:
+  //       "Another major poll shows the vast majority of voters don't think Biden is physically fit to serve as president",
+  //     description:
+  //       "On Sunday, two separate polls said most adults and voters think Biden is either too old or not mentally or physically fit enough for another term.",
+  //     url: "https://www.businessinsider.com/joe-biden-age-fitness-polls-election-donald-trump-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65c53bec43bb77284ba513aa?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-04T16:08:52Z",
+  //     content:
+  //       "President Joe Biden answers questions while departing the White House on January 30, 2024, in Washington, DC.Win McNamee/Getty Images\r\n<ul><li>Concerns about Biden's mental and physical fitness conti… [+2493 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "MacRumors",
+  //     },
+  //     author: "Hartley Charlton",
+  //     title: "Apple Pitches Vision Pro as Healthcare Solution",
+  //     description:
+  //       "Apple today highlighted the Vision Pro's ability to aid the healthcare industry, showcasing a wide range of apps now available on the visionOS App Store.\n\n\n\n\n\nApple explained how immersive apps that blend digital content with the physical world can transform …",
+  //     url: "https://www.macrumors.com/2024/03/11/apple-pitches-vision-pro-as-healthcare-solution/",
+  //     urlToImage:
+  //       "https://images.macrumors.com/t/5iJhgoz_pSaVGcn3Zg5MMF5wsd0=/3840x/article-new/2024/03/Apple-Vision-Pro-health-apps-Epic-Spatial-Computing-Concept.jpg",
+  //     publishedAt: "2024-03-11T13:34:23Z",
+  //     content:
+  //       "Apple today highlighted the Vision Pro's ability to aid the healthcare industry, showcasing a wide range of apps now available on the visionOSApp Store.\r\nApple explained how immersive apps that blend… [+1168 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "CNET",
+  //     },
+  //     author: "Macy Meyer",
+  //     title: "7 Fitness Hacks to Sneak in Exercise Painlessly Every Day - CNET",
+  //     description:
+  //       "Incorporating these exercises is much easier than you think and won't leave you feeling miserable.",
+  //     url: "https://www.cnet.com/health/fitness/7-fitness-hacks-to-sneak-in-exercise-painlessly-every-day/",
+  //     urlToImage:
+  //       "https://www.cnet.com/a/img/resize/a7bb44d53e74370087584d122d47419a78d6d84f/hub/2023/02/17/c105467e-058c-46a0-9a05-46ea117f777b/gettyimages-960937940.jpg?auto=webp&fit=crop&height=675&width=1200",
+  //     publishedAt: "2024-03-30T10:00:00Z",
+  //     content:
+  //       "I'm far from the first person to say it, but exercise is essential for our overall health. Exercise helps with boosting your mood, relieving stress, increasing energy, improving sleep quality and low… [+6820 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "new-scientist",
+  //       name: "New Scientist",
+  //     },
+  //     author: "Grace Wade",
+  //     title: "Mental illness may accelerate ageing by damaging RNA",
+  //     description:
+  //       "People with mental illness have greater amounts of damaged RNA than those without a mental health condition, which might explain the link between mental illness and age-related diseases such as cancer",
+  //     url: "https://www.newscientist.com/article/2422206-mental-illness-may-accelerate-ageing-by-damaging-rna/",
+  //     urlToImage:
+  //       "https://images.newscientist.com/wp-content/uploads/2024/03/14195525/SEI_195873724.jpg",
+  //     publishedAt: "2024-03-15T13:00:34Z",
+  //     content:
+  //       "We may be closer to understanding why mental illness increases the risk of age-related diseases\r\nXesai/Getty Images\r\nPeople with a mental health condition have more RNA damage than those without one.… [+359 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Yanko Design",
+  //     },
+  //     author: "Srishti Mitra",
+  //     title: "Top 10 Meditation Tools To Help You Achieve A Zen Mental State",
+  //     description:
+  //       "Top 10 Meditation Tools To Help You Achieve A Zen Mental StateLook, I know life can get hectic and work can be super exhausting, which can be brutal for our mental health. Taking care of our...",
+  //     url: "https://www.yankodesign.com/2024/03/13/top-10-meditation-tools-to-help-you-achieve-a-zen-mental-state/",
+  //     urlToImage:
+  //       "https://www.yankodesign.com/images/design_news/2024/03/top-10-meditation-tools/top_10_meditation_tools_yanko_design_hero.jpeg",
+  //     publishedAt: "2024-03-13T11:40:24Z",
+  //     content:
+  //       "Look, I know life can get hectic and work can be super exhausting, which can be brutal for our mental health. Taking care of our mental well-being has never been more essential, considering how chaot… [+9251 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "time",
+  //       name: "Time",
+  //     },
+  //     author: "Solcyré Burga",
+  //     title:
+  //       "Children Will No Longer Be Able to Access Puberty Blockers at England Clinics",
+  //     description:
+  //       "Children in England will no longer receive puberty blocker prescriptions, the National Health Service (NHS) of England said",
+  //     url: "https://time.com/6900330/nhs-bans-puberty-blockers-england-clinics/",
+  //     urlToImage:
+  //       "https://api.time.com/wp-content/uploads/2024/03/GettyImages-1248341537.jpg?quality=85",
+  //     publishedAt: "2024-03-12T22:03:11Z",
+  //     content:
+  //       "Children in England will no longer receive puberty blocker prescriptions, the National Health Service (NHS) of England said, confirming that the medicine will only be provided to youth who were takin… [+4905 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "bbc-news",
+  //       name: "BBC News",
+  //     },
+  //     author: "https://www.facebook.com/bbcnews",
+  //     title: "Trans treatment waiting list a ‘death sentence’",
+  //     description:
+  //       "Patients for NHS gender clinics could face a years-long wait for NHS treatment, data suggests.",
+  //     url: "https://www.bbc.co.uk/news/uk-68602939",
+  //     urlToImage:
+  //       "https://ichef.bbci.co.uk/news/1024/branded_news/17D87/production/_131117679_img_6345.jpg",
+  //     publishedAt: "2024-03-20T06:17:49Z",
+  //     content:
+  //       'Transgender patients facing a years-long wait for NHS gender care are being handed a "death sentence", says the mum of a trans woman who took her own life.\r\nData obtained by Newsnight and analysed by… [+6071 chars]',
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "CNET",
+  //     },
+  //     author: "Taylor Leamey",
+  //     title:
+  //       "Your Circadian Rhythm Could Explain Your Poor Mental Health. What to Know - CNET",
+  //     description:
+  //       "If your mental health has been declining, your sleep-wake cycle may be to blame, according to a new review of literature.",
+  //     url: "https://www.cnet.com/health/sleep/your-circadian-rhythm-could-explain-your-poor-mental-health-what-to-know/",
+  //     urlToImage:
+  //       "https://www.cnet.com/a/img/resize/c28f40ef233b60b4c34931fb492f42550afb319a/hub/2024/03/13/5913499d-236f-445a-8f6b-ce34ff5f797f/gettyimages-1473158044.jpg?auto=webp&fit=crop&height=675&width=1200",
+  //     publishedAt: "2024-03-14T17:00:04Z",
+  //     content:
+  //       "There's a lot of research into sleep disturbances and mental health. I've written several stories that explore the topics over the years. But there's less research around the extent to which your cir… [+8339 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "AppleInsider",
+  //     },
+  //     author: "news@appleinsider.com (David Schloss)",
+  //     title:
+  //       "Future Apple Vision Pro brainwave sensors could improve mental and physical health",
+  //     description:
+  //       "Apple is working on technology that could turn the Apple Vision Pro into a brainwave reader to improve mental health, assist with training and workouts, and help with mindfulness.Any number of sensors, including brainwave and biometric, could be part of futur…",
+  //     url: "https://appleinsider.com/articles/24/03/21/future-apple-vision-pro-brainwave-sensors-could-improve-mental-and-physical-health",
+  //     urlToImage:
+  //       "https://photos5.appleinsider.com/gallery/59046-120515-headband2-xl.jpg",
+  //     publishedAt: "2024-03-21T15:54:09Z",
+  //     content:
+  //       "Any number of sensors, including brainwave and biometric, could be part of future headset plans.\r\nApple is working on technology that could turn the Apple Vision Pro into a brainwave reader to improv… [+4053 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "bbc-news",
+  //       name: "BBC News",
+  //     },
+  //     author: "https://www.facebook.com/bbcnews",
+  //     title: "Pupil behaviour getting worse, say teachers",
+  //     description:
+  //       "A survey reveals nearly one in five teachers in England has been hit by a pupil this year.",
+  //     url: "https://www.bbc.co.uk/news/education-68674568",
+  //     urlToImage:
+  //       "https://ichef.bbci.co.uk/news/1024/branded_news/D090/production/_133029335_gettyimages-1460738530.jpg",
+  //     publishedAt: "2024-03-28T00:55:35Z",
+  //     content:
+  //       'Nearly one in five teachers in England has been hit by a pupil this year, a survey commissioned by the BBC says.\r\nOne teacher told BBC News behaviour was a "never-ending battle". Another said spittin… [+6276 chars]',
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Scientific American",
+  //     },
+  //     author: "Ingrid Wickelgren",
+  //     title: "Why Do So Many Mental Illnesses Overlap?",
+  //     description:
+  //       "A concept called the “p factor” attempts to explain why psychiatric disorders cannot be clearly separated",
+  //     url: "https://www.scientificamerican.com/article/why-do-so-many-mental-illnesses-overlap/",
+  //     urlToImage:
+  //       "https://static.scientificamerican.com/dam/m/1e4d44804b7b3b28/original/GettyImages-1752189140.jpg?w=1200",
+  //     publishedAt: "2024-03-04T13:30:00Z",
+  //     content:
+  //       "When a young woman earning her Ph.D. in biostatistics came to see psychiatrist Michael Gandal with symptoms of psychosis, she became the fifth person in her immediate family to be diagnosed with a ne… [+16564 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "GameSpot",
+  //     },
+  //     author: "Lan Pitts",
+  //     title: "New Spider-Man Animated Short Raises Awareness For Mental Health",
+  //     description:
+  //       "Announced last summer, The Spider Within: A Spider-Verse Story is a short animated film focused on Miles Morales having an anxiety attack that takes on a physical manifestation. The short film debuted at Annecy International Film Festival and finally debuts o…",
+  //     url: "https://www.gamespot.com/articles/new-spider-man-animated-short-raises-awareness-for-mental-health/1100-6522201/",
+  //     urlToImage:
+  //       "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15976769/4279236-gjrtbi9xkaazbtq.jpg",
+  //     publishedAt: "2024-03-27T14:33:00Z",
+  //     content:
+  //       "Announced last summer, The Spider Within: A Spider-Verse Story is a short animated film focused on Miles Morales having an anxiety attack that takes on a physical manifestation. The short film debute… [+1399 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "time",
+  //       name: "Time",
+  //     },
+  //     author: "Armani Syed",
+  //     title:
+  //       "A Paparazzi Photo of Kate Middleton Hasn’t Put People at Ease About Her Health",
+  //     description:
+  //       "After weeks of social media speculation, she has been spotted in public for the first time since undergoing abdominal surgery.",
+  //     url: "https://time.com/6837732/kate-middleton-health-tmz-photo/",
+  //     urlToImage:
+  //       "https://api.time.com/wp-content/uploads/2024/03/kate-middleton-health.jpg?quality=85",
+  //     publishedAt: "2024-03-05T12:25:06Z",
+  //     content:
+  //       "Kate Middleton has been spotted for the first time since she underwent a planned abdominal surgery two months ago. \r\nOn Monday, TMZ published images of the 42-year-old Princess of Wales in a car with… [+2449 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Vox",
+  //     },
+  //     author: "Oshan Jarow",
+  //     title:
+  //       "The world’s mental health is in rough shape — and not getting any better, a new report finds",
+  //     description:
+  //       "Mental Health State of the World report reveals which countries have better mental health and well-being.",
+  //     url: "https://www.vox.com/future-perfect/2024/3/8/24093650/mental-health-report-happiness-growth-well-being-smartphones",
+  //     urlToImage:
+  //       "https://cdn.vox-cdn.com/thumbor/0y_55fwus1stiKUhfy7wheiUZTs=/0x2059:7000x5724/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25323575/GettyImages_1308460514.jpg",
+  //     publishedAt: "2024-03-08T12:00:00Z",
+  //     content:
+  //       "Getty Images\r\n\n \n\n Guess where the US ranks? While running a microfinance company working across rural India in 2014, neuroscientist Tara Thiagarajan had a free Sunday, a portable EEG headset, and a … [+9678 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Cameron Manley",
+  //     title:
+  //       "Miami real-estate tycoon Patrick Carroll was ordered to undergo psychiatric evaluation following bizarre gun video, report says",
+  //     description:
+  //       "Patrick Carroll was ordered to undergo a psychiatric evaluation and give up his firearms following reports of gunshots at his home last week.",
+  //     url: "https://www.businessinsider.com/patrick-carroll-ordered-mental-health-evaluation-miami-police-instagram-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65fdadc62417f97b87ce6ee5?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-30T16:29:22Z",
+  //     content:
+  //       "Patrick Carroll.Victoria Sirakova/Getty Images\r\n<ul><li>Patrick Carroll posted clips of himself firing a shotgun outside his waterfront mansion in Miami.</li><li>Police ordered the real-estate tycoon… [+2097 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "business-insider",
+  //       name: "Business Insider",
+  //     },
+  //     author: "Dakin Campbell,Nicole Einbinder",
+  //     title: "Inside a prison healthcare company's ownership shell game",
+  //     description:
+  //       "Experts say YesCare's corporate structure was highly unusual and may have been designed to divert profits and evade accountability for prisoner health care.",
+  //     url: "https://www.businessinsider.com/prison-health-company-yescare-ceded-financial-control-to-insider-entities-2024-3",
+  //     urlToImage:
+  //       "https://i.insider.com/65e753036080194819fc99b7?width=1200&format=jpeg",
+  //     publishedAt: "2024-03-05T19:05:11Z",
+  //     content:
+  //       "Posters for YesCare and Corizon are on display at the Doña Ana Detention Center in Las Cruces, New Mexico, which contracted out its health care services to the companies.Adria Malcolm for Business In… [+19823 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: null,
+  //       name: "Jyotirgamya.org",
+  //     },
+  //     author: null,
+  //     title: "The Forgiver's Dilemma: Can Letting Go Set You Free?",
+  //     description:
+  //       "Struggling to forgive someone who hurt you? Learn healthy ways to manage anger, protect yourself, and prioritize your mental well-being. Explore alternatives to forgiveness and find peace, even if forgiving feels impossible.",
+  //     url: "https://jyotirgamya.org/opinion/forgivers-dilemma/",
+  //     urlToImage: null,
+  //     publishedAt: "2024-03-08T13:03:49Z",
+  //     content:
+  //       "Imagine two people in a relationship, like friends or partners. One person (let’s call her Samantha) does something wrong to the other (David), like backstabbing, espionage, stalking, or breaking a p… [+8449 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "buzzfeed",
+  //       name: "Buzzfeed",
+  //     },
+  //     author: "Alexa Lisitza",
+  //     title:
+  //       "5 Times The Royal Family Seemingly Hid Their Illnesses From The Public",
+  //     description:
+  //       'The public was told King George VI had his lung removed due to “structural abnormalities."View Entire Post ›',
+  //     url: "https://www.buzzfeed.com/alexalisitza/royal-family-health-issues",
+  //     urlToImage:
+  //       "https://img.buzzfeed.com/buzzfeed-static/static/2024-03/11/20/enhanced/3cbda888537a/original-1321-1710190133-2.jpg?crop=1581:830;0,0%26downsize=1250:*",
+  //     publishedAt: "2024-03-12T13:14:39Z",
+  //     content:
+  //       "Whether you can say Princess Margaret's mental health struggles were deliberately hidden or simply not taken seriously in the era she dealt with them is up for debate. Regardless, the princess has be… [+755 chars]",
+  //   },
+  //   {
+  //     source: {
+  //       id: "bbc-news",
+  //       name: "BBC News",
+  //     },
+  //     author: "https://www.facebook.com/bbcnews",
+  //     title: "Move over beer - Germany decriminalises cannabis",
+  //     description:
+  //       "Campaigners hail the law shift, which comes into force on 1 April - though police are less thrilled.",
+  //     url: "https://www.bbc.co.uk/news/world-europe-68674813",
+  //     urlToImage:
+  //       "https://ichef.bbci.co.uk/news/1024/branded_news/12952/production/_133041167_cannabis-gettyimages-1366397567.jpg",
+  //     publishedAt: "2024-04-01T00:22:25Z",
+  //     content:
+  //       '"Some German people drink their beer after work. We just want to smoke our weed."\r\nSo says Marcel Ritschel who\'s celebrating as Germany - traditionally "beer land" - becomes a more cannabis-friendly … [+5283 chars]',
+  //   },
   //   {
   //     source: {
   //       id: null,
